@@ -1,0 +1,40 @@
+/* VenueDog Widget Style */
+
+.venuedog_events {
+  overflow: auto;
+}
+.venuedog_events ul {
+  list-style: none;
+  margin: 0 0 10px 0;
+}
+.venuedog_events li {
+  border: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+.venuedog_events ul ul {
+  list-style: outside url("../images/arrow.png");
+  margin: 10px 0 10px 20px;
+}
+.venuedog_events ul ul li {
+  font-weight: normal;
+  margin: 0 0 8px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #ddd;
+}
+.venuedog_events li.cron {
+  float: right;
+  margin-bottom: 5px;
+}
+.venuedog_events a.prev_events, .venuedog_events a.next_events {
+  background: #59738A;
+  color: #fff !important;
+  padding: 4px 10px;
+  border: none;
+  font: 12px 'museo-slab';
+}
+.venuedog_events a.prev_events:hover, .venuedog_events a.next_events:hover {
+  background: #E75A3E;
+}
+p.powered_by_venuedog{text-align:center;}
